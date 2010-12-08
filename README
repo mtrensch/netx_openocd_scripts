@@ -12,7 +12,7 @@ Sample scripts using JTAGkey Tiny for different boards and the CPU itself are al
 ### Usage:
 
 Prerequisites:
- * openOCD (for openOCD 0.4.0 please use the openocd-0.4.0 branch)
+ * openOCD
  * Appropriate Hilscher netX Evaluation Board or a JTAGkey
 
 Just start openocd and pass the proper config script as follows:
