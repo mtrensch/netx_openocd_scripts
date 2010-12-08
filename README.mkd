@@ -1,0 +1,20 @@
+# netX openOCD scripts
+
+These scripts can be used to connect to evaluation boards from Hilscher that come with an FTDI chip on Boards, or using a JTAGkey from Amontech.
+
+The following boards can be used directly:
+ * NXHX500-RE / -ETM
+ * NXHX50-RE / -ETM
+ * NXHX10-RE / -ETM
+
+Sample scripts using JTAGkey Tiny for different boards and the CPU itself are also available.
+
+### Usage:
+
+Prerequisites:
+ * openOCD (for openOCD 0.4.0 please use the openocd-0.4.0 branch)
+ * Appropriate Hilscher netX Evaluation Board or a JTAGkey
+
+Just start openocd and pass the proper config script as follows:
+  openocd-ftd2xx -f config\nxhx500_re.cfg
+  
