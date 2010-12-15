@@ -1,3 +1,0 @@
-[submodule "openocd"]
-	path = openocd
-	url = git://openocd.git.sourceforge.net/gitroot/openocd/openocd
