@@ -12,11 +12,14 @@ Sample scripts using JTAGkey Tiny for different boards and the CPU itself are al
 ### Usage:
 
 Prerequisites:
- * openOCD-0.5.0 / openOCD-dev (for openOCD 0.4.0 please use the openocd-0.4.0 branch)
+ * openOCD-0.5.0-dev
  * Appropriate Hilscher netX Evaluation Board or a JTAGkey
 
-Just start openocd and pass the proper config script as follows:
-  openocd-ftd2xx -f config\nxhx500_re.cfg
-  
+Just start openocd and pass the proper config script / search dir as follows:
+  openocd-ftd2xx -s <scriptdir> -f <scriptdir>\config\nxhx500_re.cfg
+
+or use the standard openOCD method:
+  openocd-ftd2xx -s <scriptdir> -f <scriptdir>\interface\hilscher_nxhx500_re.cfg -f <scriptdir>\board\hilscher_nxhx500.cfg
+
 ### Notes:
- * These files have been tested with openOCD-dev-0.5.0 from 09-01-2010
+ * These files have been tested with openOCD-dev-0.5.0 from 12-14-2010
