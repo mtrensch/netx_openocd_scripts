@@ -7,13 +7,14 @@ The following boards can be used directly:
  * NXHX50-RE / -ETM
  * NXHX10-RE / -ETM
  * NXHX51-RE / -ETM
+ * NXHX90-JTAG
 
 Sample scripts using JTAGkey Tiny for different boards and the CPU itself are also available.
 
 ### Usage:
 
 Prerequisites:
- * openOCD-0.8.0
+ * openOCD-0.10.0
  * Appropriate Hilscher netX Evaluation Board or a JTAGkey
 
 Just start openocd and pass the proper config script / search dir as follows:
